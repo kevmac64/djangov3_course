@@ -2,7 +2,7 @@ from django.shortcuts import render
 import random
 
 
-# Create your views here.
+# Create your views here. Basic function based views
 
 def home(request):
     return render(request, 'generator/index.html', {
